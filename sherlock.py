@@ -35,6 +35,7 @@ def main():
     raw = open("data.json", "r", encoding="utf-8")
     data = json.load(raw)
 
+
     # User agent is needed because some sites does not 
     # return the correct information because it thinks that
     # we are bot
